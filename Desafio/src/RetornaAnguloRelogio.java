@@ -55,7 +55,7 @@ public class RetornaAnguloRelogio {
 					
 					hora = Integer.parseInt(txtHora.getText());
 					minuto = Integer.parseInt(txtMinuto.getText());
-					if ((hora > 24)||(minuto > 59)||(hora < 0)||(minuto < 0)) {
+					if ((hora > 23)||(minuto > 59)||(hora < 0)||(minuto < 0)) {
 						JOptionPane.showMessageDialog(null, "Por favor, digite um número válido.", "Erro", 0);
 					} else {
 						if (hora > 12) {
